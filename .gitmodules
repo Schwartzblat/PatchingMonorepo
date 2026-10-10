@@ -31,3 +31,6 @@
 [submodule "PatchingSite"]
 	path = PatchingSite
 	url = git@github.com:Schwartzblat/PatchingSite.git
+[submodule "patchers/ReshetPatcher"]
+	path = patchers/ReshetPatcher
+	url = git@github.com:Schwartzblat/ReshetPatcher.git

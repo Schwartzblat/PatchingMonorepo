@@ -1,0 +1,33 @@
+[submodule "tools/crawler"]
+	path = tools/crawler
+	url = git@github.com:Schwartzblat/ApkCrawler.git
+[submodule "patchers/WhatsAppPatcher"]
+	path = patchers/WhatsAppPatcher
+	url = git@github.com:Schwartzblat/WhatsAppPatcher.git
+[submodule "patchers/OkCupidPatcher"]
+	path = patchers/OkCupidPatcher
+	url = git@github.com:Schwartzblat/OkCupidPatcher.git
+[submodule "patchers/MoovitPatcher"]
+	path = patchers/MoovitPatcher
+	url = git@github.com:Schwartzblat/MoovitPatcher.git
+[submodule "patchers/MakoPatcher"]
+	path = patchers/MakoPatcher
+	url = git@github.com:Schwartzblat/MakoPatcher.git
+[submodule "utils/ArtHooks"]
+	path = utils/ArtHooks
+	url = git@github.com:Schwartzblat/ArtHooks.git
+[submodule "utils/Stitch"]
+	path = utils/Stitch
+	url = git@github.com:Schwartzblat/Stitch.git
+[submodule "utils/PatchPaywall"]
+	path = utils/PatchPaywall
+	url = git@github.com:Schwartzblat/PatchPaywall.git
+[submodule "tools/fastsigner"]
+	path = tools/fastsigner
+	url = git@github.com:Schwartzblat/fastsigner.git
+[submodule "skills/Android-Patching-Skill"]
+	path = skills/Android-Patching-Skill
+	url = git@github.com:Schwartzblat/Android-Patching-Skill.git
+[submodule "PatchingSite"]
+	path = PatchingSite
+	url = git@github.com:Schwartzblat/PatchingSite.git

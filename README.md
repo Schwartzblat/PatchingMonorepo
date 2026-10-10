@@ -70,17 +70,17 @@ layout as the existing ones.
 
 | Path | Language | Description |
 |---|---|---|
-| [`patchers/WhatsAppPatcher`](patchers/WhatsAppPatcher) | Python + Java | Signature-verifier bypass, revoked messages kept, view-once saving, read receipts per chat, group statistics, Drive backups, and an in-app settings screen |
-| [`patchers/MoovitPatcher`](patchers/MoovitPatcher) | Python + Java | No ads, live location (needs a Google API key) |
-| [`patchers/MakoPatcher`](patchers/MakoPatcher) | Python + Java | No ads for the Mako / 12+ streaming app |
-| [`patchers/OkCupidPatcher`](patchers/OkCupidPatcher) | Python + Java | Premium unlocked, unblurred photos and real names on likes, background identity sweep |
-| [`utils/Stitch`](utils/Stitch) | Python | Decodes the APK, builds a Gradle module, merges its smali, resources and manifest into the app, and signs the result. Published on PyPI as `stitch` |
-| [`utils/ArtHooks`](utils/ArtHooks) | Java + C++ | Redirects Java methods by overwriting their `ArtMethod` entry points. Works without root or Xposed. Distributed via JitPack |
-| [`utils/PatchPaywall`](utils/PatchPaywall) | Java | A `ContentProvider` that checks the subscription before the app's own code runs |
-| [`tools/crawler`](tools/crawler) | Python | Downloads, patches and uploads new app versions (`run_crawler.sh`) |
-| [`tools/fastsigner`](tools/fastsigner) | Rust | Implements APK Signature Scheme v2/v3. About 100× faster than `apksigner`, with byte-identical output for RSA keys |
-| [`skills/Android-Patching-Skill`](skills/Android-Patching-Skill) | Markdown + scripts | Claude Code skill (`/android_patching`) that takes an APK to a working patcher |
-| [`PatchingSite`](PatchingSite) | Python + JS + Kotlin | FastAPI + SQLite backend, React 19 + Vite frontend, Stripe billing, Kotlin/Compose Android store |
+| [`patchers/WhatsAppPatcher`](https://github.com/Schwartzblat/WhatsAppPatcher) | Python + Java | Signature-verifier bypass, revoked messages kept, view-once saving, read receipts per chat, group statistics, Drive backups, and an in-app settings screen |
+| [`patchers/MoovitPatcher`](https://github.com/Schwartzblat/MoovitPatcher) | Python + Java | No ads, live location (needs a Google API key) |
+| [`patchers/MakoPatcher`](https://github.com/Schwartzblat/MakoPatcher) | Python + Java | No ads for the Mako / 12+ streaming app |
+| [`patchers/OkCupidPatcher`](https://github.com/Schwartzblat/OkCupidPatcher) | Python + Java | Premium unlocked, unblurred photos and real names on likes, background identity sweep |
+| [`utils/Stitch`](https://github.com/Schwartzblat/Stitch) | Python | Decodes the APK, builds a Gradle module, merges its smali, resources and manifest into the app, and signs the result. Published on PyPI as `stitch` |
+| [`utils/ArtHooks`](https://github.com/Schwartzblat/ArtHooks) | Java + C++ | Redirects Java methods by overwriting their `ArtMethod` entry points. Works without root or Xposed. Distributed via JitPack |
+| [`utils/PatchPaywall`](https://github.com/Schwartzblat/PatchPaywall) | Java | A `ContentProvider` that checks the subscription before the app's own code runs |
+| [`tools/crawler`](https://github.com/Schwartzblat/ApkCrawler) | Python | Downloads, patches and uploads new app versions (`run_crawler.sh`) |
+| [`tools/fastsigner`](https://github.com/Schwartzblat/fastsigner) | Rust | Implements APK Signature Scheme v2/v3. About 100× faster than `apksigner`, with byte-identical output for RSA keys |
+| [`skills/Android-Patching-Skill`](https://github.com/Schwartzblat/Android-Patching-Skill) | Markdown + scripts | Claude Code skill (`/android_patching`) that takes an APK to a working patcher |
+| [`PatchingSite`](https://github.com/Schwartzblat/PatchingSite) | Python + JS + Kotlin | FastAPI + SQLite backend, React 19 + Vite frontend, Stripe billing, Kotlin/Compose Android store |
 
 Each component has its own README covering requirements, setup and usage.
 

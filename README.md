@@ -15,6 +15,7 @@ PatchingMonorepo/
 │   ├── WhatsAppPatcher/           WhatsApp: revoked messages kept, view-once saving, group stats, ...
 │   ├── MoovitPatcher/             Moovit: no ads, live location
 │   ├── MakoPatcher/               Mako (12+): no ads
+│   ├── ReshetPatcher/             Reshet (13+): no ads in VOD or live
 │   └── OkCupidPatcher/            OkCupid: premium unlocked, unblurred "Interested in You"
 │
 ├── utils/                         libraries the patchers are built on
@@ -73,6 +74,7 @@ layout as the existing ones.
 | [`patchers/WhatsAppPatcher`](https://github.com/Schwartzblat/WhatsAppPatcher) | Python + Java | Signature-verifier bypass, revoked messages kept, view-once saving, read receipts per chat, group statistics, Drive backups, and an in-app settings screen |
 | [`patchers/MoovitPatcher`](https://github.com/Schwartzblat/MoovitPatcher) | Python + Java | No ads, live location (needs a Google API key) |
 | [`patchers/MakoPatcher`](https://github.com/Schwartzblat/MakoPatcher) | Python + Java | No ads for the Mako / 12+ streaming app |
+| [`patchers/ReshetPatcher`](https://github.com/Schwartzblat/ReshetPatcher) | Python + Java | No ads for the Reshet / 13+ streaming app: VOD and live video ads (including the server-side G-Mana ads in the live stream), GMA interstitial and banner ads, and web ads in its WebViews |
 | [`patchers/OkCupidPatcher`](https://github.com/Schwartzblat/OkCupidPatcher) | Python + Java | Premium unlocked, unblurred photos and real names on likes, background identity sweep |
 | [`utils/Stitch`](https://github.com/Schwartzblat/Stitch) | Python | Decodes the APK, builds a Gradle module, merges its smali, resources and manifest into the app, and signs the result. Published on PyPI as `stitch` |
 | [`utils/ArtHooks`](https://github.com/Schwartzblat/ArtHooks) | Java + C++ | Redirects Java methods by overwriting their `ArtMethod` entry points. Works without root or Xposed. Distributed via JitPack |

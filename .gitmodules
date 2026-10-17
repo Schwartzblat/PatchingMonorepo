@@ -34,3 +34,7 @@
 [submodule "patchers/ReshetPatcher"]
 	path = patchers/ReshetPatcher
 	url = git@github.com:Schwartzblat/ReshetPatcher.git
+[submodule "patchers/genericPatcher"]
+	path = patchers/genericPatcher
+	url = git@github.com:Schwartzblat/GenericPatcher.git
+	branch = v2

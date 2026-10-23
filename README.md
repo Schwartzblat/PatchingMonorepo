@@ -17,7 +17,7 @@ PatchingMonorepo/
 │   ├── MakoPatcher/               Mako (12+): no ads
 │   ├── ReshetPatcher/             Reshet (13+): no ads in VOD or live
 │   ├── OkCupidPatcher/            OkCupid: premium unlocked, unblurred "Interested in You"
-│   └── genericPatcher/            Any app: ads removed, ads only (powers the store's "Patch an app from your phone")
+│   └── genericPatcher/            Any app: ads removed, purchases bypassed, or both (powers the store's "Patch an app from your phone")
 │
 ├── utils/                         libraries the patchers are built on
 │   ├── Stitch/                    Python: injects a Gradle module into an APK / APKM / XAPK
@@ -77,7 +77,7 @@ layout as the existing ones.
 | [`patchers/MakoPatcher`](https://github.com/Schwartzblat/MakoPatcher) | Python + Java | No ads for the Mako / 12+ streaming app |
 | [`patchers/ReshetPatcher`](https://github.com/Schwartzblat/ReshetPatcher) | Python + Java | No ads for the Reshet / 13+ streaming app: VOD and live video ads (including the server-side G-Mana ads in the live stream), GMA interstitial and banner ads, and web ads in its WebViews |
 | [`patchers/OkCupidPatcher`](https://github.com/Schwartzblat/OkCupidPatcher) | Python + Java | Premium unlocked, unblurred photos and real names on likes, background identity sweep |
-| [`patchers/genericPatcher`](https://github.com/Schwartzblat/GenericPatcher) | Python + Java | Removes ads from any app, ads only. Its bundle powers the store's "Patch an app from your phone" |
+| [`patchers/genericPatcher`](https://github.com/Schwartzblat/GenericPatcher) | Python + Java | Removes ads from any app, or bypasses its in-app purchases, or both. Its bundle powers the store's "Patch an app from your phone" |
 | [`utils/Stitch`](https://github.com/Schwartzblat/Stitch) | Python | Decodes the APK, builds a Gradle module, merges its smali, resources and manifest into the app, and signs the result. Published on PyPI as `stitch` |
 | [`utils/ArtHooks`](https://github.com/Schwartzblat/ArtHooks) | Java + C++ | Redirects Java methods by overwriting their `ArtMethod` entry points. Works without root or Xposed. Distributed via JitPack |
 | [`utils/PatchPaywall`](https://github.com/Schwartzblat/PatchPaywall) | Java | A `ContentProvider` that checks the subscription before the app's own code runs |

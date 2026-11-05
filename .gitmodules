@@ -37,4 +37,3 @@
 [submodule "patchers/genericPatcher"]
 	path = patchers/genericPatcher
 	url = git@github.com:Schwartzblat/GenericPatcher.git
-	branch = v2
